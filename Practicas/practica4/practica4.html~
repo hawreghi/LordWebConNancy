@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Practica 4. Formulario de contacto.</title>
+	</head>
+	<body>
+	<h1>¡Contáctenos!</h1>
+	<form method="post" action="practica4.html">
+
+		<label for="nombre"> Nombre: </label>
+		<input type="text" id="nombre" name="nombre" />
+		<br />
+		<label for="correo"> E-mail: </label>
+		<input type="email" id="correo" name="correo" />
+		<br />
+		<label for="telefono"> Telefono:</label>
+		<input type="tel" id="telefono" name="telefono"/>
+		<br />
+		<label for="estado"> Estado:</label>
+			<select id="estado" name="estado">
+				<option value="Aguascalientes">Aguascalientes</option>
+				<option value="California">Baja California</option>
+				<option value="Baja California Sur">Baja California Sur</option>
+				<option value="Campeche">Campeche</option>
+				<option value="Chiapas">Chiapas</option>
+				<option value="Chihuahua">Chihuahua</option>
+				<option value="Coahuila">Coahuila</option>
+				<option value="Coahuila">Coahuila</option>
+				<option value="Distrito Federal">Distrito Federal</option>
+				<option value="Durango">Durango</option>
+				<option value="Estado de México">Estado de México</option>
+				<option value="Guanajuato">Guanajuato</option>
+				<option value="Guerrero">Guerrero</option>
+				<option value="Hidalgo">Hidalgo</option>
+				<option value="Jalisco">Jalisco</option>
+				<option value="Michoacán">Michoacán</option>
+				<option value="Morelos">Morelos</option>
+				<option value="Nayarit">Nayarit</option>
+				<option value="Nuevo León">Nuevo León</option>
+				<option value="Oaxaca">Oaxaca</option>
+				<option value="Puebla">Puebla</option>
+				<option value="Querétaro">Querétaro</option>
+				<option value="Quintana Roo">Quintana Roo</option>
+				<option value="San Luis Potosí">San Luis Potosí</option>
+				<option value="Sinaloa">Sinaloa</option>
+				<option value="Sonora">Sonora</option>
+				<option value="Tabasco">Tabasco</option>
+				<option value="Tamauoptionpas">Tamauoptionpas</option>
+				<option value="Tlaxcala">Tlaxcala</option>
+				<option value="Veracruz">Veracruz</option>
+				<option value="Yucatán">Yucatán</option>
+				<option value="Zacatecas">Zacatecas</option>
+			</select> 
+		<br />
+		<label for="colonia"> Colonia:</label>
+		<input type="text" id="colonia" name="colonia"/>
+		<br />
+		
+		<fieldset>
+			<legend> Me interesa... </legend>
+			<label for="ropa"> Ropa </label>
+			<input type="checkbox" id="ropa" name="intereses" value="ropa"/>	
+			<label for="electrodomesticos">Electrodomésticos</label>
+			<input type="checkbox" id="electrodomesticos" name="intereses" value="electrodomesticos"/>	
+			<label for="deportes">Deportes</label>
+			<input type="checkbox" id="deportes" name="intereses" value="deportes"/>	
+		</fieldset>
+		
+		<br />
+		<label for="comentarios"> Comentarios:</label>
+		<textarea id="comentarios" name="comentarios">Escriba aqui sus comentarios</textarea>
+		<br />
+		<button type="submit"> Enviar </button>
+							
+	</form>
+		
+	</body>
+</html>

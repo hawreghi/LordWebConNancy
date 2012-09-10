@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Practica 7. Maquetación.</title>
+	</head>
+	<body>
+		<header>
+			<h1>Empresa</h1>
+		</header>
+		<nav>
+			<ul>
+				<li>Principal</li>
+				<li>Misión</li>
+				<li>Visión</li>
+			</ul>
+		</nav>
+		<article>
+			<h1>Articulo</h1>
+			<p> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius, nisl ut suscipit consectetur, 
+				enim urna ullamcorper nulla, eget dignissim lectus nulla eu magna. Donec tempor varius massa, semper pulvinar 
+				tellus rhoncus vitae. Mauris ac nisl massa, vel ultrices orci. Integer consectetur, metus at condimentum luctus, 
+				magna est euismod arcu, ac fermentum neque urna eget lacus. Fusce mauris risus, adipiscing sed cursus id, imperdiet et nulla. 
+			</p>			
+			<p>
+				Donec tempor magna sed risus semper eget pulvinar leo sollicitudin. Nam eu arcu eu mauris tincidunt ullamcorper. 
+				Fusce ultricies tristique libero, eget mattis ligula rutrum non. Mauris rutrum ornare rhoncus. 
+				Sed vestibulum, arcu nec blandit posuere, velit purus congue tortor, eu consectetur orci eros eleifend lorem. 
+				Proin nulla urna, molestie nec lacinia vel, blandit at nunc. Curabitur risus tellus, vehicula et imperdiet a, 
+				posuere at sem. Vestibulum vehicula, purus a vulputate molestie, neque libero tincidunt leo, at varius augue lacus eu odio.
+			</p>			
+		</article>
+		<section>
+			<h1>Sección</h1>
+			<p> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius, nisl ut suscipit consectetur, 
+				enim urna ullamcorper nulla, eget dignissim lectus nulla eu magna. Donec tempor varius massa, semper pulvinar 
+				tellus rhoncus vitae. Mauris ac nisl massa, vel ultrices orci. Integer consectetur, metus at condimentum luctus, 
+				magna est euismod arcu, ac fermentum neque urna eget lacus. Fusce mauris risus, adipiscing sed cursus id, imperdiet et nulla. 
+			</p>	
+		</section>
+		<aside>
+			<ul>
+				<li>Bla1</li>
+				<li>Bla2</li>
+				<li>Bla3</li>
+			</ul>
+		</aside>
+		<footer>
+			<p>Copyright</p>
+		</footer>
+	</body>
+</html>

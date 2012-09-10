@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Practica 7. Maquetación.</title>
+	</head>
+	<body>
+		<header>
+			<h1>Empresa</h1>
+		</header>
+		<nav>
+			<ul>
+				<li>Principal</li>
+				<li>Misión</li>
+				<li>Visión</li>
+			</ul>
+		</nav>
+		<article>
+			<h1>Audioooo</h1>
+			<audio controls="controls">
+				<source src="BM.mp3" type="audio/mp3" />
+				<source src="http://www.wavsource.com/snds_2012-08-26_5526142812454405/animals/dog_bark_x.wav" type="audio/mp3" />
+			</audio>
+		</article>
+		<section>
+			<h1>Sección video</h1>
+			<video controls="controls" height="300" width="400">
+				
+				<source src="http://download.blender.org/peach/trailer/trailer_1080p.ogg" type="video/ogg" />
+				
+			</video>
+		</section>
+		<aside>
+			<ul>
+				<li>Bla1</li>
+				<li>Bla2</li>
+				<li>Bla3</li>
+			</ul>
+		</aside>
+		<footer>
+			<p>Copyright</p>
+		</footer>
+	</body>
+</html>
