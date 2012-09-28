@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description"  content="Pagina principal de la practica 5"/>
+	<meta name="author" content="lord" />
+	<meta name="keywords" content="html5, ejemplo, practicas, programacion web, CC422"/>
+	<title>Pr&aacute;ctica 5 :: Formulario de inicio de sesi&oacute;n</title>
+	<script src="js/validacionesLogin.js"></script>
+</head>
+<body>
+	<h1>Escriba sus datos de inicio de sesi&oacute;n</h1>
+	<form action="login.html" method="get" name="login">
+		<label for="nick">Nombre de usuario</label>
+		<input type="text" name="nick" id="nick" required/>
+		<label for="mail">Correo electr&oacute;nico</label>
+		<input type="email" name="mail" id="mail" placeholder="ejemplo@dominio.com" required/>
+		<label for="password">Contrase&ntilde;a</label>
+		<input type="password" name="password" id="password" />
+		<label for="confirmacion">Confirme su contrase&ntilde;a</label>
+		<input type="password" name="confirmacion" id="confirmacion" />
+		<input type="hidden" name="md5" id="md5"/> 
+		<button type="submit" id="enviar">Iniciar sesi&oacute;n</button>
+		<button type="reset">Limpiar</button>		
+	</form>
+</body>
+</html>
